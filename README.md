@@ -172,17 +172,21 @@ jobs:
 ```shell
 docker build -t my-python-app:test .
 ```
+
+<img width="897" height="166" alt="изображение" src="https://github.com/user-attachments/assets/cbc994c7-ea65-4753-a039-38dd3e6e1d12" />
+
 Создание и запуск контейнера:
 ```shell
 docker run --rm my-python-app:test
 ```
 
-Вы увидите вывод: `Hello from my Python app!`
+<img width="667" height="37" alt="изображение" src="https://github.com/user-attachments/assets/1110b3ad-14c9-4958-928e-0d2747dfe076" />
 
-![Hello from my Python app!](/content/DevOps/CI_CD/img/2_workflow.png)
 
 Опционально вы можете зайти в созданный вами контейнер для ознакомления
 ```shell
 docker run --rm -it my-python-app:test /bin/bash
 ```
+
+<img width="745" height="52" alt="изображение" src="https://github.com/user-attachments/assets/9c439300-fb27-486f-8d8c-ffa022989a16" />
 
